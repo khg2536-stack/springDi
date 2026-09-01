@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="hurjae" class="com.oraclejava.springdi.Person">
+                <property name="name" value="hurjae"/>
+                <property name="addr" value="LG그램"/>
+                <property name="age" value="123"/>
+        </bean>
+
+        <bean id="n1" class="com.oraclejava.springdi.NoteBook">
+                <property name="nid" value="1"/>
+                <property name="brand" value="LG그램"/>
+        </bean>
+
+        <bean id="n2" class="com.oraclejava.springdi.NoteBook">
+                <property name="nid" value="3"/>
+                <property name="brand" value="삼성센스520"/>
+        </bean>
+
+</beans>
