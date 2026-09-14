@@ -5,8 +5,8 @@
 
         <bean id="hurjae" class="com.oraclejava.springdi.Person">
                 <property name="name" value="hurjae"/>
-                <property name="addr" value="LG그램"/>
-                <property name="age" value="123"/>
+                <property name="addr" value="서울"/>
+                <property name="age" value="12"/>
         </bean>
 
         <bean id="n1" class="com.oraclejava.springdi.NoteBook">

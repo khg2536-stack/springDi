@@ -7,6 +7,13 @@ public class Triangle {
 
     private String name = "오니기리";
 
+    public Triangle(String name) {
+        this.name = name;
+    }
+
+    public Triangle() {
+    }
+
     public String getName() {
 
         return name;

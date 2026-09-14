@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Circle {
+
     private String name;
 
     public Circle(String name) {

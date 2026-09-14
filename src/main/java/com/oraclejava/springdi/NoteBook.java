@@ -1,8 +1,5 @@
 package com.oraclejava.springdi;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-
 public class NoteBook {
 
     private int nid;
@@ -10,11 +7,6 @@ public class NoteBook {
 
 
     public NoteBook() {
-
-    }
-    public NoteBook(int nid, String brand) {
-        this.nid = nid;
-        this.brand = brand;
     }
 
     public void setNid(int nid) {

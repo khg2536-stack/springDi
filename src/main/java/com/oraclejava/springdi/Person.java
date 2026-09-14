@@ -1,6 +1,7 @@
 package com.oraclejava.springdi;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Person {
 
@@ -9,6 +10,7 @@ public class Person {
     private int age;
 
     @Autowired
+    @Qualifier("n1")
     private NoteBook noteBook;
 
     public Person() {
@@ -17,12 +19,6 @@ public class Person {
 
     public NoteBook getNoteBook() {
         return noteBook;
-    }
-
-    public Person(String name, String addr, int age) {
-        this.name = name;
-        this.addr = addr;
-        this.age = age;
     }
 
     public String getName() {

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service //어떠한 서비스를 할 것이다.
 public class ShapeService {
+
     @Autowired
     private Circle circle;
 

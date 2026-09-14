@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspec {
 
-    //
     @Before
     public void beforeMethod(){
         System.out.println("예시");
